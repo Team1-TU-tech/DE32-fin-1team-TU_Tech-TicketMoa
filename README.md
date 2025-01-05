@@ -1,7 +1,8 @@
-# DE32_LAST_DANCE
-## Team 1 최종 프로젝트
-공연 티켓 통합 조회 플랫폼 <img src="https://github.com/user-attachments/assets/f9a7b6a0-727e-489d-afb9-ce071aee56ea" alt="TicketMoa Logo" style="vertical-align: middle; width: 100px; height: auto;">  
+# <img src="https://github.com/user-attachments/assets/1bab35d6-043c-4223-84da-bd03b03c26c8" alt="TicketMoa Logo" style="vertical-align: middle; width: 250px; height: auto;">  
+## 공연 티켓 통합 사이트 
+![image](https://github.com/user-attachments/assets/b7df3ace-5ff2-4892-a137-03f0e5f49314)
 
+## 🗂️ 프로젝트 소개
 ### 주제 선정 이유
 뮤지컬, 공연, 전시, 행사 등 다양한 플랫폼에 흩어져 있는 티켓 정보를 확인하는 과정이 복잡하고 불편하다는 점을 해결하고자 플랫폼 개발을 시작하게 되었습니다.
 <br></br>
@@ -23,7 +24,7 @@
 - 로그 데이터 기반 시각화 자료 제공
 ***************
 
-## 목차
+## 📑 목차
 - [기술스택](#기술스택)
 - [개발기간](#개발기간)
 - [시스템아키텍쳐](#시스템-아키텍쳐)
@@ -41,7 +42,8 @@
 - [License](#License)
 - [문의](#문의)
 <br></br>
-## 기술스택
+
+## ⚙️ 기술스택
 ### Data
 <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat&logo=MongoDB&logoColor=ffffff"/> <img src="https://img.shields.io/badge/Amazon%20S3-569A31?style=flat&logo=Amazon%20S3&logoColor=ffffff"/> <img src="https://img.shields.io/badge/Apache%20Kafka-231F20?style=flat&logo=Apache%20Kafka&logoColor=white"/> <img src="https://img.shields.io/badge/Redis-FF4438?style=flat&logo=Redis&logoColor=ffffff"/> <img src="https://img.shields.io/badge/Numpy-013243?style=flat&logo=numpy&logoColor=F5F7F8"/> <img src="https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=F5F7F8"/> <img src="https://img.shields.io/badge/Scikitlearn-F7931E?style=flat&logo=scikitlearn&logoColor=F5F7F8"/> <img src="https://img.shields.io/badge/Beautifulsoup-3776AB?style=flat&logo=Beautifulsoup&logoColor=#090a0a"/>
 ### Back
@@ -51,13 +53,13 @@
 ### Tools
 <img src="https://img.shields.io/badge/Docker-2496ED?style=flat&logo=Docker&logoColor=white"/> <img src="https://img.shields.io/badge/Amazon%20EC2-232F3E?style=flat&logo=amazonwebservices&logoColor=ffffff"/> <img src="https://img.shields.io/badge/NGINX-009639?style=flat&logo=NGINX&logoColor=ffffff"/> <img src="https://img.shields.io/badge/Selenium-43B02A?style=flat&logo=selenium&logoColor=F5F7F8"/> <img src="https://img.shields.io/badge/Kakao-FFCD00?style=flat&logo=Kakao&logoColor=ffffff"/> <img src="https://img.shields.io/badge/Google Chrome-4285F4?style=flat&logo=Google Chrome&logoColor=ffffff"/> <img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=GitHub&logoColor=ffffff"/>
 <br></br>
-## 개발기간
+## ⏳ 개발기간
 **`2024.11.14 ~ 2024.12.31(48일)`**
 <br></br>
-## 시스템 아키텍쳐
+## 🏗️ 시스템 아키텍쳐
 ![image](https://github.com/user-attachments/assets/b00fd4f6-dd14-4aa6-b126-bbe45f18875b)
 
-## Features
+## 🚀 Features
 ### React -> [repo 바로가기](https://github.com/Team1-TU-tech/react)
 - TicketMoa의 front-end를 담당하는 application
 - Nginx를 Load Balancer로 활용하여 가용성을 높임
@@ -89,7 +91,7 @@
 - 로그 기반 인기 공연 추출: S3 로그 데이터를 읽어와 인기 공연 추출 결과를 매일 배치 작업으로 생성하여 MongoDB에 저장.
 ***********
 
-## 시연 영상
+## 💻 시연 영상
 ### 사용자 페이지 - 회원가입, 로그인, 로그아웃
 https://github.com/user-attachments/assets/eb0a4095-89a2-4e2f-8d45-c5bd505dd2a2
 
@@ -99,66 +101,18 @@ https://github.com/user-attachments/assets/40b1c525-562f-43b6-88e3-58f1d7079b85
 ### 관리자 페이지
 https://github.com/user-attachments/assets/f5aff28d-5b63-4b4c-a396-a3f4945cc075
 
-### TU-Tech Contributors
-![image](https://github.com/user-attachments/assets/7fc14db7-9442-426e-ab16-304598054235)
-|역할|이름|
-|---|---|
-| PM (Project Manager) | 김태민 |
-| AC (Agile Coach) | 정미은 |
-| TL (Tech Leader) | 함선우 |
-| AA (Application Architect), GL (Gag Leader) | 오지현 |
-<br></br>
-```
-,~~,,,,,-~,-::;;;*;!;*~~~~~~~~~~~-~~~~~~~~~~~~---~
-,-~,,,,,-:,-----**;;;!~~~~----------------------,~
-,-~,,,--,:----:.-*:;;!------------------,-~----,,~
-,-:,,,,,,;-~~-;,-;~::*--------~--------,~;*----,-~
-,,;,,,,--;--~~*-!=!*:!--------*;-----~:*!**,-~:~:~
-,-!,,,,--;-~~:****$=;!--------**:!,~**:=*=-~!*!*!!
---!,,,,,,:---:=~~-$=;!-------;=;..,!*:**==~!!!**=*
-;;=;;;;;;;;;;!$*;:$$**~=*:---*=;---==!*!*******=$$
---!-,----~~-~:*!~*$$**;$$*;~-,==!~;;*!*!**===**$##
---::-,,--~;~~:=!$$$$=*:##. ~~:$####=**!;*$::~*!!=$
-,-~;------*~~:=#!$$$==:=$=**!$#$###$!!!**=!;!;*!:!
---~!----~~*;~;*!*!==-!====$$$$##$#$=*!*=*!;::::-~;
-*!:!---~-~=$;*!:,.;;,======$=$####$$**==*;~--:~~:;
-=$*=:~~~~~$-,;,~.,-!....,,..;!$$#$#*$=$*=!;;!:;;;!
-!~=$$!:.--.--~!;:~~*        *$=$$##$=$====!!-::;;*
-,.:=$$*!,!$--:~--;*~   .    $$$$=$$$*=$$##!;;~:!*;
-,,,:$@@=-#$;;**!-,!,..  ..  $#$####$!;!=###;:::..-
-,,,-:#@@$#*$=**!!!*~... .. .=$$###$$-,,--,,-,.,~--
-,,--~*@@##!##*~:*!!~~.:::~,.!;~;##$$,  .. ,,.-,~~~
-:~---;@@#=*##=*!=@=~-;;--;**:~~~-;**,    .~;::~-~-
-*;:;;:@@@#$@$*=@@@#-;:~:~~~,!::,~-,:,.   .;~!~~-!-
-!;;!*=@@@#@@@##@@@@*!:~~~~~.;::,,,--,.. .::~:;~:!~
-;-;*=*@@@##@@#@@@@@#*:,,,..,~:-,,-,-:~~-~::;::!~!~
--.-=*=@@@#*@$$@@@@@#=;~:,..:----*-,:!:;*;:,:!~;:!~
-,..;!*@@@###@@##@@@@$=;;.~~--,:*~,~***==-::;:*!!;-
-..,~~~$@#$#*@#*=@@@@$$!*~,,,,~-==..!**=::-;;;*!;:-
-:;::::$@=$$@$##@@@@@##*:-;.,.......-;!!~:;:!*=!;:;
-!!!!;;#;#$#=##@#@@@@@#@*#*..  ......:=,:!!***$=**;
-!**!;=!--;$#=$#:#@###$$@##;:,   ....*::*****=*!;~;
-;;*!$#;-,.:*$#!*@@@@@#@$#$#=****!;~-~~;***==$!;:==
-=***@$;,.,.*$*@@@@@@@@$#@@@@#$@$=$$#!:!;*=$=*:;!;;
-!**@@*;-,. -$@$:*=$-~~*#@@@@@@@#=@@@;!*!!*#=!;:*;;
-!*#@#!:... .-:*#@#:~~:~~~~~:;;**$@@#;!!*=#$!!::~;;
-!*@@#;~,.... .=$$@=::;~~:~~~~~:**!!*~!;*$$$;;~!:~:
-*@@@$;-...  ...*=*@@=;;:::~::*;=**=~=!*=*==!:::;*:
-@$@@*!,,..-::.~,##@@@@$!;:~::$!*-,-~:*=**!;~~!::-:
-@$@@!:-~,-,-..--,-#@@@@@$!~:;~!:-,,;!====*:---~-;;
-#$##;~-,~.-.-:*;:-.#@@@@###!;~:*~:~;=***=$;--~~~::
-#$@#:~~,,:--!::*;;~#@@@@###$#:*;!,..,--~;!:-~:-~,,
-@#@#:!,,,~~-. ..**!*@@@@######**:-,.,.,,,--,,,--!-
-##@=;--,-:~.,,-~,**:@@@@@@###@$!*:-,,,,,,,,,~,~~,:
-```
-<br>
+## 🤝 Contributors
+  | 역할 | 이름 | 책임 |
+  |----|------|------|
+  | PM | 김태민 | 프론트 |
+  | AC | 정미은 | 데이터 ETL |
+  | TL | 함선우 | 데이터 ETL |
+  | AA | 오지현 | 백엔드 |
 
-## License
+## ⚖️ License
 이 애플리케이션은 TU-tech 라이선스에 따라 라이선스가 부과됩니다.
 <br></br>
-## 문의
+## 📩 문의
 질문이나 제안사항이 있으면 언제든지 연락주세요:
-<br></br>
 - 이메일: TU-tech@tu-tech.com
 - Github: `Mingk42`, `hahahellooo`, `hamsunwoo`, `oddsummer56`
-
